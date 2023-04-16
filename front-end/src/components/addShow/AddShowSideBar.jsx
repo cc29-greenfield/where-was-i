@@ -5,36 +5,6 @@ import { faXmarkCircle } from '@fortawesome/free-solid-svg-icons';
 function AddShowSideBar(props) {
   const [seasonSelect, setSeasonSelectd] = useState('');
   const [episodeSelect, setpisodeSelected] = useState('');
-  // const [showInfo, setShowInfo] = useState(false);
-  // const [episodesPerSeason, setEpisodesPerSeason] = useState([]);
-
-  // useEffect(() => {
-  //   getShowInfo(props.showSelected.show_id);
-  // }, []);
-  //
-  // async function getShowInfo(showId) {
-  //   const data = await fetch(
-  //     `https://api.themoviedb.org/3/tv/${showId}?api_key=22232a34b1256a41ee95dfdb04aa1810`
-  //   ).then((data) => data.json());
-  //   setShowInfo(data);
-  // }
-
-  // function handleEpisode(e) {
-  //   const episodeNumber =
-  //     showInfo.seasons[parseInt(e.currentTarget.value)].episode_count;
-  //   setEpisodesPerSeason(episodeNumber);
-  //   const arrayOfNumbers = [];
-  //   for (let i = 1; i <= episodeNumber; i++) {
-  //     arrayOfNumbers.push(i);
-  //   }
-  //   setEpisodesPerSeason(arrayOfNumbers);
-  //   setSeasonSelectd(episodeNumber)
-  // }
-
-  // function recordEpisode(e) {
-  //   setpisodeSelected(parseInt(e.currentTarget.value))
-  //   console.log(typeof seasonSelect, typeof episodeSelect)
-  // }
 
   async function updateDatabase(e) {
     e.preventDefault();

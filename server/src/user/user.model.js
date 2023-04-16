@@ -37,12 +37,4 @@ module.exports = {
       user_id: userId[0].user_id,
     });
   },
-
-  // updateUser() {
-  //   console.log();
-  // },
-  //
-  // deleteUser() {
-  //   <cl> lf</cl>;
-  // },
 };

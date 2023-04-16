@@ -56,9 +56,6 @@ module.exports = {
           user_id: userId,
         });
       const resultBoolean = checkExisting.length > 0 ? true : false;
-      if (resultBoolean) {
-        console.log(checkExisting);
-      }
       return resultBoolean;
     }
 
@@ -78,8 +75,7 @@ module.exports = {
     }
 
     if (checkUser) {
-      console.log('caught a bad guy')
-      return 'Hey it is already here';
+      return;
     }
 
     // ELSE JUST ADD TO USER MOVIE TABLE
