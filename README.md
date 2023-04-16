@@ -1,5 +1,5 @@
 
-![WHERE-WAS-I](https://raw.githubusercontent.com/cc29-greenfield/where-was-i/main/front-end/src/images/background.png)
+![WHERE-WAS-I](https://raw.githubusercontent.com/cc29-greenfield/where-was-i/main/front-end/src/images/rsz_background.png)
 
 ## How it works
 
