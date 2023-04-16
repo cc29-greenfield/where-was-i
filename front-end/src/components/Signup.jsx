@@ -15,7 +15,6 @@ const app = firebase.initializeApp({
   appId: '1:236551239143:web:406264d0b12a3428fc7942',
 });
 const auth = fire.getAuth(app);
-//getUserId from Firebase and pass to App
 
 function Signup({ setIsSignUp }) {
   const [loginEmail, setloginEmail] = useState('');
