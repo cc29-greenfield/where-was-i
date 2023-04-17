@@ -7,12 +7,12 @@ const firebase = require('firebase/app');
 const fire = require('firebase/auth');
 
 const app = firebase.initializeApp({
-  apiKey: 'AIzaSyBdo-9REbvNterk3UIMaAJhvd35BK2v0ls',
-  authDomain: 'where-was-i-426bb.firebaseapp.com',
-  projectId: 'where-was-i-426bb',
-  storageBucket: 'where-was-i-426bb.appspot.com',
-  messagingSenderId: '236551239143',
-  appId: '1:236551239143:web:406264d0b12a3428fc7942',
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  projectId:  process.env.PROJECT_ID,
+  storageBucket: process.env.STORAGE_BUCKET,
+  messagingSenderId: process.env.SENDER_ID, 
+  appId: process.env.APP_ID,
 });
 const auth = fire.getAuth(app);
 
