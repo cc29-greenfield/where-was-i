@@ -7,8 +7,6 @@ import Signup from './Signup';
 import LoginForm from './LoginForm';
 //getUserId from Firebase and pass to App
 
-console.log(process.env.REACT_APP_API_KEY)
-
 function Login({ setLogin, setCurrentView, setUserInfo }) {
   const [loginPassword, setloginPassword] = useState('');
   const [loginUsername, setloginUsername] = useState('');
